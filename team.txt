@@ -1,2 +1,3 @@
-Leader: mdKovalesky
-staff: -
+Leader: Dzikri Kovalesky
+staff: mantap
+done.
