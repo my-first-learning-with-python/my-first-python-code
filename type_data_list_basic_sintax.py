@@ -61,3 +61,21 @@ list_book = ["Atomic Habbits", "Seven Habbits", "Mindset"]
 list_book.pop(-2)
 for i in range(0, len(list_book)):
     print(list_book[i])
+
+print("\nPerintah del dengan list comperhensive")
+list_book = ["Atomic Habbits", "Seven Habbits", "Mindset","harr potter", "How wo to Influence People"]
+del list_book[:]
+for i in range(0, len(list_book)):
+    print(list_book[i])
+
+print("\nPerintah del untuk buku 1 dan 2 dengan comperhensive list")
+list_book = ["Atomic Habbits", "Seven Habbits", "Mindset","Harry potter", "How wo to Influence People"]
+del list_book[0:2]
+for i in range(0, len(list_book)):
+    print(list_book[i])
+
+print("\nPerintah del dengan comperhensive list")
+list_book = ["Atomic Habbits", "Seven Habbits", "Mindset","Harry potter", "How wo to Influence People"]
+del list_book[0::2]
+for i in range(0, len(list_book)):
+    print(list_book[i])
