@@ -25,3 +25,39 @@ print("\ntambahkan 1 buku baru")
 list_book.append("fifty sade of the grey")
 for i in range(0, len(list_book)):
     print(list_book[i])
+
+print('\nclear list')
+list_book.clear()
+for i in range(0, len(list_book)):
+    print(list_book[i])
+
+print("\nMengganti element pertama")
+list_book = ["Atomic Habbits", "Seven Habbits", "Mindset"]
+list_book[0] = "fifty sade of the grey"
+for i in range(0, len(list_book)):
+    print(list_book[i])
+
+print("\nMengambil element ke-2")
+book = list_book.pop(1)
+for i in range(0, len(list_book)):
+    print(list_book[i])
+
+print("\nBuku yang diambil buku")
+print(book)
+
+print("\npop")
+list_book.pop()
+for i in range(0, len(list_book)):
+    print(list_book[i])
+
+print("\npop -1")
+list_book = ["Atomic Habbits", "Seven Habbits", "Mindset"]
+list_book.pop(-1)
+for i in range(0, len(list_book)):
+    print(list_book[i])
+
+print("\npop -2")
+list_book = ["Atomic Habbits", "Seven Habbits", "Mindset"]
+list_book.pop(-2)
+for i in range(0, len(list_book)):
+    print(list_book[i])
