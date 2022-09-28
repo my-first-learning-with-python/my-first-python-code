@@ -26,3 +26,15 @@ print(users["address"]["street"])
 print(users["address"]["geo"])
 print(users["address"]["geo"]["lat"])
 
+print(users)
+print(type(users))
+print("\nubah dict ke json")
+import json
+result = json.dumps(users)
+print(result)
+print(type(result))
+
+with open('result.json', 'w') as file:
+    result2 = json.dump(users, file)
+    print(result2)
+    print(type(result2))
